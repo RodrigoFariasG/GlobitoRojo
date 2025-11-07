@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Fichas de Alumnos - Globito Rojo</title>
+<style>
+    body { margin: 0; font-family: 'Poppins', sans-serif; background: #f4f5f7; }
+    header { background: #284b73; color: white; display: flex; justify-content: space-between; align-items: center; padding: 12px 20px; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: 600; }
+    nav a:hover { text-decoration: underline; }
+    .container { padding: 30px; }
+    h1 { color: #284b73; }
+    .student-list, .student-form { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 3px 8px rgba(0,0,0,0.12); margin-bottom: 20px; }
+    .student-card { padding: 10px; border-bottom: 1px solid #ddd; }
+    label { display: block; font-weight: 600; margin-top: 10px; }
+    input, textarea { width: 100%; padding: 10px; border-radius: 6px; border: 1px solid #ccc; margin-top: 5px; }
+    .btn { background: #284b73; color: white; padding: 12px 20px; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block; margin-top: 20px; }
+</style>
+</head>
+<body>
+<header>
+    <div><strong>Globito Rojo</strong></div>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="planificacion.html">Planificación</a>
+        <a href="fichas.html">Fichas Niños</a>
+    </nav>
+</header>
+
+
+<div class="container">
+    <h1>Fichas de Niños</h1>
+
+
+    <div class="student-list">
+        <h2>Lista de Estudiantes</h2>
+        <div class="student-card">Juan Pérez</div>
+        <div class="student-card">María Torres</div>
+        <div class="student-card">Luciana Araya</div>
+        <div class="student-card">Benjamín Soto</div>
+    </div>
+
+
+    <div class="student-form">
+        <h2>Ficha de Antecedentes</h2>
+
+
+        <label>Nombre Completo:</label>
+        <input type="text" />
+
+
+        <label>Fecha de Nacimiento:</label>
+        <input type="date" />
+
+
+        <label>Dirección:</label>
+        <textarea></textarea>
+
+
+        <label>Nombre del Apoderado:</label>
+        <input type="text" />
+
+
+        <label>Contacto del Apoderado:</label>
+        <input type="text" />
+
+
+        <label>Información Médica Relevante:</label>
+        <textarea></textarea>
+
+
+        <a class="btn" href="#">Guardar Ficha</a>
+    </div>
+</div>
+</body>
+</html>
